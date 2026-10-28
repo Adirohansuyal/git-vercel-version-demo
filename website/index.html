@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Version Demo | Light Theme</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 8%;
+      background: white;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    nav a {
+      color: #334155;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      max-width: 850px;
+      margin: 100px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      color: #64748b;
+      font-size: 18px;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      background: #2563eb;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .version {
+      margin-top: 24px;
+      color: #64748b;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <strong>Version Demo</strong>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+    </div>
+  </nav>
+
+  <main class="hero" id="home">
+    <h1>Welcome to Our Website</h1>
+    <p>A simple website to practice Git, GitHub and Vercel.</p>
+    <button class="btn" onclick="alert('Light Theme is working!')">
+      Get Started
+    </button>
+    <div class="version">Light Theme | Version 1.0</div>
+  </main>
+</body>
+</html>
